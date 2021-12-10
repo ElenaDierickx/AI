@@ -9,9 +9,10 @@ public class MySolution implements Solution {
     private List<City> travel;
 
     public MySolution(int numberOfCities) {
+        for(int i = 0; numberOfCities > 0; i++){
+            travel.add(new City());
+        }
     }
-
-    @Override
     public double getObjectiveValue() {
         return 0;
     }
@@ -26,5 +27,5 @@ public class MySolution implements Solution {
         return null;
     }
 
-    public List<City> getTravel() {return null;}
+    public List<City> getTravel() {return travel;}
 }

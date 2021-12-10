@@ -5,7 +5,7 @@ import be.odisee.search.hillclimbing.SteepestDescent;
 
 public class Main {
     public static void main(String[] args) {
-        SearchAlgorithm steepestDescent = new SteepestDescent(10);
+        SearchAlgorithm steepestDescent = new SteepestDescent(20);
         steepestDescent.execute(1000);
         MySolution bestSolution = (MySolution) steepestDescent.getBestSolution();
         System.out.println();

@@ -6,6 +6,7 @@ import be.odisee.search.framework.Solution;
 public class MySwapTwoRandomCitiesMove extends Move {
     @Override
     public double doMove(Solution solution) {
+
         return 0;
     }
 

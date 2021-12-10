@@ -7,6 +7,7 @@ import be.odisee.search.framework.Solution;
 public class MyObjectiveFunction extends ObjectiveFunction {
     @Override
     public double evaluate(Solution solution, Move move) {
+
         return 0;
     }
 }
