@@ -32,7 +32,7 @@ findall(Studenten, studenten(_,Studenten), Lnamen), flatten(Lnamen, Namen),
 transpose([["Name" | Namen], ["cijferj" | LJavaFund], ["cijferWM"|Lwmintro]], Ts),
 print_table(Ts).
 
-stapfunctie(X,0) :- X < 0,  !.
+stapfunctie(X,0) :- X < 0, !.
 stapfunctie(X,1) :- X < 5, !.
 stapfunctie(_,2).
 
