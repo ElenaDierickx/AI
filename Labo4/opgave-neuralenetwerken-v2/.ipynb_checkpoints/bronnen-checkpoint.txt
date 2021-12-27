@@ -1,0 +1,13 @@
+# 1.1: Introductie tot TensorFlow 2
+
+# Bronnen
+# https://www.tensorflow.org/guide/tensor
+# https://github.com/mertbozkir/Music_Generation_RNNs/blob/main/Part1_TensorFlow.ipynb
+
+# 1.2 Aan de slag met de Fashion MNIST dataset
+
+# Bronnen
+# https://github.com/aymericdamien/TensorFlow-Examples
+# https://github.com/tensorflow/docs/blob/master/site/en/tutorials/quickstart/beginner.ipynb
+# https://github.com/dragen1860/TensorFlow-2.x-Tutorials
+# https://medium.com/@karan99varma/introduction-to-tensorflow2-0-and-keras-using-mnist-72d99c92cf72
